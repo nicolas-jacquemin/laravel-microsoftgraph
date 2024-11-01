@@ -104,6 +104,13 @@ class Mail
         return $this->get($url);
     }
 
+    public function getMailFolder(string $id)
+    {
+        $url ="/me/mailfolders/$id";
+
+        return $this->get($url);
+    }
+
     public function getSubFolders($id)
     {
         $url = '/me/mailfolders/' . $id . '/childFolders';
@@ -129,7 +136,7 @@ class Mail
                 'date'         => Carbon::parse($mail['receivedDateTime'])->format('d-m-Y H:i'),
                 'subject'      => $mail['subject'],
                 'from'         => $mail['from']['emailAddress'],
-                'to'           => ! blank($to) ? $to : optional($mail['toRecipients'])[0]['emailAddress']['address'],
+                'to'           => ! blank($to) ? $to : ($mail['toRecipients'] ? $mail['toRecipients'][0]['emailAddress']['address']: []),
                 'attachements' => $mail['hasAttachments'],
             ];
         }
