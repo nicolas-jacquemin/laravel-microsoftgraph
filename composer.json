@@ -1,6 +1,7 @@
 {
     "name": "nicolas-jacquemin/laravel-microsoftgraph",
     "description": "This package offers a wrapper round Microsoft Graph API",
+    "version": 1.16,
     "keywords": [
         "LLoadout",
         "laravel",
