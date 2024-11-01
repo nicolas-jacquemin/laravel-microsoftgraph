@@ -1,5 +1,5 @@
 {
-    "name": "lloadout/microsoftgraph",
+    "name": "nicolas-jacquemin/laravel-microsoftgraph",
     "description": "This package offers a wrapper round Microsoft Graph API",
     "keywords": [
         "LLoadout",
