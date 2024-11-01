@@ -1,6 +1,6 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\EventListeners;
+namespace Nicojqn\Microsoftgraph\EventListeners;
 
 use Illuminate\Foundation\Events\Dispatchable;
 

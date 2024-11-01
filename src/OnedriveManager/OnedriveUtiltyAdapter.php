@@ -1,6 +1,6 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\OnedriveManager;
+namespace Nicojqn\Microsoftgraph\OnedriveManager;
 
 abstract class OnedriveUtiltyAdapter
 {

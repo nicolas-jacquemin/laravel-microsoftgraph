@@ -1,6 +1,6 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\Providers;
+namespace Nicojqn\Microsoftgraph\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 

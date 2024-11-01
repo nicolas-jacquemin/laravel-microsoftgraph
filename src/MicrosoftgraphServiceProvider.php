@@ -1,8 +1,8 @@
 <?php
 
-namespace LLoadout\Microsoftgraph;
+namespace Nicojqn\Microsoftgraph;
 
-use LLoadout\Microsoftgraph\Providers\EventServiceProvider;
+use Nicojqn\Microsoftgraph\Providers\EventServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -23,12 +23,12 @@ class MicrosoftgraphServiceProvider extends PackageServiceProvider
     private function buildRoutes()
     {
         $this->app['router']->get('microsoft/connect', [
-            'uses' => '\LLoadout\Microsoftgraph\Authenticate@connect',
+            'uses' => '\Nicojqn\Microsoftgraph\Authenticate@connect',
             'as' => 'graph.connect',
         ])->middleware('web');
 
         $this->app['router']->get('microsoft/callback', [
-            'uses' => '\LLoadout\Microsoftgraph\Authenticate@callback',
+            'uses' => '\Nicojqn\Microsoftgraph\Authenticate@callback',
             'as' => 'graph.callback',
         ])->middleware('web');
     }
@@ -66,11 +66,11 @@ class MicrosoftgraphServiceProvider extends PackageServiceProvider
     {
 
         $this->app->bind('teams', function ($app) {
-            return new \LLoadout\Microsoftgraph\Teams();
+            return new \Nicojqn\Microsoftgraph\Teams();
         });
 
         $this->app->bind('excel', function ($app) {
-            return new \LLoadout\Microsoftgraph\Excel();
+            return new \Nicojqn\Microsoftgraph\Excel();
         });
     }
 }

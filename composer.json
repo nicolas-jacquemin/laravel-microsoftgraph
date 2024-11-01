@@ -1,13 +1,13 @@
 {
     "name": "nicolas-jacquemin/laravel-microsoftgraph",
     "description": "This package offers a wrapper round Microsoft Graph API",
-    "version": 1.16,
+    "version": "1.16.1",
     "keywords": [
-        "LLoadout",
+        "Nicojqn",
         "laravel",
         "microsoftgraph"
     ],
-    "homepage": "https://github.com/lloadout/microsoftgraph",
+    "homepage": "https://github.com/nicolas-jacquemin/laravel-microsoftgraph",
     "license": "MIT",
     "authors": [
         {
@@ -32,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LLoadout\\Microsoftgraph\\": "src",
-            "LLoadout\\Microsoftgraph\\Database\\Factories\\": "database/factories"
+            "Nicojqn\\Microsoftgraph\\": "src",
+            "Nicojqn\\Microsoftgraph\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LLoadout\\Microsoftgraph\\Tests\\": "tests"
+            "Nicojqn\\Microsoftgraph\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,9 +54,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LLoadout\\Microsoftgraph\\MicrosoftgraphServiceProvider",
-                "LLoadout\\Microsoftgraph\\Providers\\MicrosoftGraphMailServiceProvider",
-                "LLoadout\\Microsoftgraph\\Providers\\MicrosoftGraphOnedriveServiceProvider"
+                "Nicojqn\\Microsoftgraph\\MicrosoftgraphServiceProvider",
+                "Nicojqn\\Microsoftgraph\\Providers\\MicrosoftGraphMailServiceProvider",
+                "Nicojqn\\Microsoftgraph\\Providers\\MicrosoftGraphOnedriveServiceProvider"
             ]
         }
     },

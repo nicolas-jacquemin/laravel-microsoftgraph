@@ -1,9 +1,9 @@
 <?php
 
-namespace LLoadout\Microsoftgraph;
+namespace Nicojqn\Microsoftgraph;
 
-use LLoadout\Microsoftgraph\Traits\Authenticate;
-use LLoadout\Microsoftgraph\Traits\Connect;
+use Nicojqn\Microsoftgraph\Traits\Authenticate;
+use Nicojqn\Microsoftgraph\Traits\Connect;
 use Microsoft\Graph\Http\GraphResponse;
 use Microsoft\Graph\Model\Channel;
 use Microsoft\Graph\Model\Chat;

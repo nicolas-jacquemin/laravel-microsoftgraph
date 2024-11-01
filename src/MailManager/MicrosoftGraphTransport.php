@@ -1,8 +1,8 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\MailManager;
+namespace Nicojqn\Microsoftgraph\MailManager;
 
-use LLoadout\Microsoftgraph\Mail;
+use Nicojqn\Microsoftgraph\Mail;
 use Symfony\Component\Mailer\Envelope;
 use Symfony\Component\Mailer\SentMessage;
 use Symfony\Component\Mailer\Transport\TransportInterface;

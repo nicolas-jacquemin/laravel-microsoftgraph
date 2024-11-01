@@ -1,10 +1,10 @@
 <?php
 
-namespace LLoadout\Microsoftgraph;
+namespace Nicojqn\Microsoftgraph;
 
 use Beta\Microsoft\Graph\Model\Event;
-use LLoadout\Microsoftgraph\Traits\Authenticate;
-use LLoadout\Microsoftgraph\Traits\Connect;
+use Nicojqn\Microsoftgraph\Traits\Authenticate;
+use Nicojqn\Microsoftgraph\Traits\Connect;
 use Microsoft\Graph\Model\DateTimeTimeZone;
 use Microsoft\Graph\Model\EmailAddress;
 use Microsoft\Graph\Model\ItemBody;

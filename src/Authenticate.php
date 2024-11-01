@@ -1,11 +1,11 @@
 <?php
 
-namespace LLoadout\Microsoftgraph;
+namespace Nicojqn\Microsoftgraph;
 
 use Illuminate\Support\Facades\Http;
 use Laravel\Socialite\Facades\Socialite;
-use LLoadout\Microsoftgraph\EventListeners\MicrosoftGraphErrorReceived;
-use LLoadout\Microsoftgraph\Traits\Authenticate as AuthTrait;
+use Nicojqn\Microsoftgraph\EventListeners\MicrosoftGraphErrorReceived;
+use Nicojqn\Microsoftgraph\Traits\Authenticate as AuthTrait;
 
 class Authenticate
 {

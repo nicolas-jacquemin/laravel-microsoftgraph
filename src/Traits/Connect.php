@@ -1,6 +1,6 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\Traits;
+namespace Nicojqn\Microsoftgraph\Traits;
 
 use Microsoft\Graph\Graph;
 

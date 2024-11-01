@@ -1,9 +1,9 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\Providers;
+namespace Nicojqn\Microsoftgraph\Providers;
 
 use Illuminate\Mail\MailServiceProvider;
-use LLoadout\Microsoftgraph\MailManager\MicrosoftGraphMailManager;
+use Nicojqn\Microsoftgraph\MailManager\MicrosoftGraphMailManager;
 
 class MicrosoftGraphMailServiceProvider extends MailServiceProvider
 {

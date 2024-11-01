@@ -1,6 +1,6 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\MailManager;
+namespace Nicojqn\Microsoftgraph\MailManager;
 
 use Illuminate\Mail\MailServiceProvider;
 

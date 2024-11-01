@@ -1,12 +1,12 @@
 <?php
 
-namespace LLoadout\Microsoftgraph\Traits;
+namespace Nicojqn\Microsoftgraph\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
-use LLoadout\Microsoftgraph\EventListeners\MicrosoftGraphCallbackReceived;
-use LLoadout\Microsoftgraph\EventListeners\MicrosoftGraphErrorReceived;
+use Nicojqn\Microsoftgraph\EventListeners\MicrosoftGraphCallbackReceived;
+use Nicojqn\Microsoftgraph\EventListeners\MicrosoftGraphErrorReceived;
 
 trait Authenticate
 {
