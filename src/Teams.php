@@ -2,6 +2,7 @@
 
 namespace Nicojqn\Microsoftgraph;
 
+use Beta\Microsoft\Graph\Model\Message;
 use Nicojqn\Microsoftgraph\Traits\Authenticate;
 use Nicojqn\Microsoftgraph\Traits\Connect;
 use Microsoft\Graph\Http\GraphResponse;
@@ -53,6 +54,11 @@ class Teams
     public function getChannels(Team $team): array
     {
         return $this->get('/teams/'.$team->getId().'/channels', returns: Channel::class);
+    }
+
+    public function getMessages(Chat|Channel $chat): array
+    {
+        return $this->get('/chats/'.$chat->getId().'/messages', returns: Message::class);
     }
 
     /**
